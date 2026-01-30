@@ -32,3 +32,5 @@ def contract_Price():
             break
         else:
             print('invalid "yes" or "no" contract price unit! Try again!')
+
+            #testets
