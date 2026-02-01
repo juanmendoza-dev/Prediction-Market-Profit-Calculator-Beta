@@ -39,11 +39,8 @@ elif contract == 2:
 else:
     print("something went really wrong please try again!")
     
-    
-
-
 
 #final output
-yes_profit = (f"To make 20% ({}) of {contract} contract {Fore.LIGHTMAGENTA_EX}sell at: ")
-no_profit = (f"")
+final_output = f"To make 20% ({profit}) of {contract} contract {Fore.LIGHTMAGENTA_EX}sell at: {sell_price}"
+print(final_output)
 
