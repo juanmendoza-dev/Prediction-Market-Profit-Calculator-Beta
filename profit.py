@@ -16,3 +16,12 @@ elif yes_no_contract == "No" or yes_no_contract == "no" or yes_no_contract == "N
 else:
     print(Fore.LIGHTRED_EX + "invalid input please try again!")
 
+#contract logic (step 2)
+if contract == 1:
+    yes_contract = input(f'{Fore.LIGHTMAGENTA_EX}Price Per {Fore.GREEN}"Yes" {Fore.LIGHTMAGENTA_EX}Share: ') #price per "Yes" Share
+elif contract == 2:
+    no_contract = input(f'{Fore.LIGHTMAGENTA_EX}Price Per {Fore.LIGHTRED_EX}"No" {Fore.LIGHTMAGENTA_EX}Share: ')
+else:
+    print(Fore.LIGHTRED_EX +"Error please start over!!")
+
+#profit logic 
