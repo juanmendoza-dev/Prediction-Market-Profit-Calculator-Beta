@@ -8,6 +8,10 @@ int main(){
     //launcher
     std::cout << "Inital Capital?: " << '\n'; //inital capital 
     std::cin >> capital;
+
+    std::cout << "Purchased 'Yes' or 'No' Contract?";
+    std::cin >> yes_no_contract;
+    
     
 
 
