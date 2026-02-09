@@ -31,7 +31,7 @@ int main(){
     }
 
     //per share
-    std::cout << "How Much per " << yes_no_contract <<" contract/share?"; // How much per {yes or no contract} contract?
+    std::cout << "How much per " << yes_no_contract <<" contract/share?: "; // How much per {yes or no contract} contract?
     std::cin >> perShare;
 
     //safety rails 
@@ -50,6 +50,6 @@ int main(){
 TODO:
 
 1) Make it so that yes_no_contract: Accepts all type of yes/no inputs (Caps included)
-
+2) 
 
 */
