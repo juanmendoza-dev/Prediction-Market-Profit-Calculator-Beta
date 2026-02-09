@@ -52,5 +52,6 @@ TODO:
 
 1) Make it so that yes_no_contract: Accepts all type of yes/no inputs (Caps included)
 2) Wrap the whole thing a while loop (similar to the python version)
+3) Find a way to log everything (log file already created)
 
 */
