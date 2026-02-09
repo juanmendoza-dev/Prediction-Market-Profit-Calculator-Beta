@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <string> 
 
 int main(){
     //vars
@@ -17,12 +18,12 @@ int main(){
     
     // Figures out if the contract is a "Yes" or "No" 
     if (yes_no_contract == "Yes"|| yes_no_contract == "YES" || yes_no_contract == "y" || yes_no_contract == "Y"){
-       std::string yes_no_contract = "Yes";
+        yes_no_contract = "Yes";
        
     }
     
     else if (yes_no_contract == "No" || yes_no_contract == "NO" || yes_no_contract == "n" || yes_no_contract == "N"){
-        std::string yes_no_contract = "No"; 
+        yes_no_contract = "No"; 
     }
 
     else {
@@ -44,3 +45,11 @@ int main(){
 
     return 0; //goodbye!
 }
+
+/*
+TODO:
+
+1) Make it so that yes_no_contract: Accepts all type of yes/no inputs (Caps included)
+
+
+*/
