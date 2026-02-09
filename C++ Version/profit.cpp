@@ -3,9 +3,9 @@
 
 int main(){
     //vars
-    bool capital; //how much money the user puts in, AKA capital 
+    double capital; //how much money the user puts in, AKA capital 
     std::string yes_no_contract; //the contract
-    bool perShare;
+    double perShare; 
 
 
     //launcher
@@ -25,7 +25,7 @@ int main(){
         std::string yes_no_contract = "No"; 
     }
 
-    else{
+    else {
         std::cout << "Invalid Please Try again!";
     }
 
