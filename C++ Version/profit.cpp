@@ -7,6 +7,7 @@ int main(){
     double capital; //how much money the user puts in, AKA capital 
     std::string yes_no_contract; //the contract
     double perShare; 
+    int share;
 
 
     //launcher
@@ -15,6 +16,9 @@ int main(){
 
     std::cout << "Purchased 'Yes' or 'No' Contract?: "; //figures out if the user bought yes or no contract!
     std::cin >> yes_no_contract;
+
+    std::cout << "How many " << yes_no_contract << " did you purchase?: ";
+    std::cin >> share;
     
     // Figures out if the contract is a "Yes" or "No" 
     if (yes_no_contract == "Yes"|| yes_no_contract == "YES" || yes_no_contract == "y" || yes_no_contract == "Y"){
@@ -46,6 +50,13 @@ int main(){
 
     return 0; //goodbye!
 }
+
+//actual logic
+
+
+
+
+
 
 /*
 TODO:
