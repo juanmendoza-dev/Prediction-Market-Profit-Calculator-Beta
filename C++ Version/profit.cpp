@@ -58,7 +58,11 @@ int main(){
     return 0; //goodbye!
 }
 
+void Risk(){
 
+
+
+}
 
 
 
