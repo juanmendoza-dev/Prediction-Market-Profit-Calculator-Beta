@@ -20,8 +20,8 @@ void runRiskAnalyzer(){
     cin >> capital;
 
     //step 2 (ask for trade 1, name that they want to assign )
-    cout << "Total Capital:  ";
-    cin >> capital;
+    cout << "Trade 1:  ";
+    cin >> trade1;
 
     //step 3 (ask for contract type "yes" or "no")
     cout << "Contract Type ('Yes' or 'No'): ";
