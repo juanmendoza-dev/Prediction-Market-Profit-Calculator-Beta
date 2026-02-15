@@ -1,8 +1,10 @@
 #include <iostream>
 #include "riskAnalyzer.h"
 #include <string>
+#include <limits>
 using std::cout;
 using std::cin;
+using std::getline;
 
 void runRiskAnalyzer(){
    
@@ -19,9 +21,13 @@ void runRiskAnalyzer(){
     cout << "Total Capital: ";
     cin >> capital;
 
+    //clear buffer
+    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+
     //step 2 (ask for trade 1, name that they want to assign )
     cout << "Trade 1:  ";
-    cin >> trade1;
+    getline(cin, trade1); //gets the whole entire line instead of just one letter
 
     //step 3 (ask for contract type "yes" or "no")
     cout << "Contract Type ('Yes' or 'No'): ";
