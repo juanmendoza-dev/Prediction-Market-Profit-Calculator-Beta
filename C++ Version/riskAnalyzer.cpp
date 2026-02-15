@@ -2,6 +2,7 @@
 #include "riskAnalyzer.h"
 #include <string>
 using std::cout;
+using std::cin;
 
 void runRiskAnalyzer(){
    
@@ -11,6 +12,24 @@ void runRiskAnalyzer(){
     std::string contractType; //"Yes" or "No"
     double $perShare; //price per "Yes" or "No" Share
 
+    //step 0 (launcher)
+    cout << "Running Risk Analyzer..." << "\n";
+
+    //step 1 (ask for capital)
+    cout << "Total Capital: ";
+    cin >> capital;
+
+    //step 2 (ask for trade 1, name that they want to assign )
+    cout << "Total Capital:  ";
+    cin >> capital;
+
+    //step 3 (ask for contract type "yes" or "no")
+    cout << "Contract Type ('Yes' or 'No'): ";
+    cin >> contractType;
+
+    //step 4 (price per share)
+    cout << "Price per " << '"' << contractType << '"' << " share"; //price per {contract type} share
+    cin >> $perShare;
 
 
 
