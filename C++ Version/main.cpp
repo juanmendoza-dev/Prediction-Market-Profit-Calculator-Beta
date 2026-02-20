@@ -17,7 +17,7 @@ int main(){
     cout << "3) Exit" << "\n";
     cout << "\n"; //newline
     cout << "Choose Selection: "; //user selection
-    std::cin >> selection; 
+    cin >> selection; 
     
     if (selection == "1" || selection == "one"){
         runRiskAnalyzer(); //runs risk analyzer 
@@ -36,11 +36,12 @@ int main(){
     
     else if (selection == "3" || selection == "three"){
         cout << "Exiting...";
+        cout << "Press any button to exit ..." << std::endl;
+        std::cin.get();
+
+
+
         
-
-
-
-
     }
         
 
